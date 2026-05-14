@@ -1,0 +1,30 @@
+Fraud Detection Business Rules
+
+Evaluate the transaction risk considering:
+
+1. High transaction amount increases risk
+2. High transaction velocity in 24h increases risk
+3. Device changes increase risk
+4. Country mismatch between merchant and IP increases risk
+5. High-risk merchants increase risk
+6. Very recent customers increase risk
+7. Card-not-present transactions increase risk
+
+Classification categories:
+
+- LEGIT
+- SUSPICIOUS
+- FRAUD
+
+You must:
+- reason over the signals
+- estimate the overall fraud risk
+- classify the transaction
+
+Return JSON format:
+
+{
+  "classification": "LEGIT | SUSPICIOUS | FRAUD",
+  "reasoning": "short explanation",
+  "risk_score": 0-100
+}

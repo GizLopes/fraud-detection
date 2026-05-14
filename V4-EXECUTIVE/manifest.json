@@ -1,0 +1,14 @@
+{
+  "fileLocations": [
+    {
+      "URIs": [
+        "s3://agentcore-outcomes-789065179500-us-east-1-an/analytics_operational_table.csv"
+      ]
+    }
+  ],
+  "globalUploadSettings": {
+    "format": "CSV",
+    "delimiter": ",",
+    "containsHeader": "true"
+  }
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "transaction_id": "T0001",
+    "card_id": "CARD_0011",
+    "merchant_id": "M025",
+    "amount": 1748.96,
+    "timestamp": "2024-06-18T16:58:00",
+    "hour": 16,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0002",
+    "card_id": "CARD_0002",
+    "merchant_id": "M016",
+    "amount": 2056.16,
+    "timestamp": "2024-06-04T11:56:53",
+    "hour": 11,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0003",
+    "card_id": "CARD_0004",
+    "merchant_id": "M008",
+    "amount": 1627.36,
+    "timestamp": "2024-06-08T18:05:05",
+    "hour": 18,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0004",
+    "card_id": "CARD_0005",
+    "merchant_id": "M027",
+    "amount": 61.02,
+    "timestamp": "2024-06-25T17:49:08",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0005",
+    "card_id": "CARD_0036",
+    "merchant_id": "M016",
+    "amount": 1547.22,
+    "timestamp": "2024-06-06T08:33:55",
+    "hour": 8,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0006",
+    "card_id": "CARD_0035",
+    "merchant_id": "M007",
+    "amount": 285.56,
+    "timestamp": "2024-06-25T23:44:12",
+    "hour": 23,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0007",
+    "card_id": "CARD_0043",
+    "merchant_id": "M013",
+    "amount": 616.33,
+    "timestamp": "2024-06-21T11:28:57",
+    "hour": 11,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0008",
+    "card_id": "CARD_0016",
+    "merchant_id": "M004",
+    "amount": 446.15,
+    "timestamp": "2024-06-08T02:21:01",
+    "hour": 2,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0009",
+    "card_id": "CARD_0038",
+    "merchant_id": "M008",
+    "amount": 1403.92,
+    "timestamp": "2024-06-08T00:04:45",
+    "hour": 0,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0010",
+    "card_id": "CARD_0005",
+    "merchant_id": "M008",
+    "amount": 162.06,
+    "timestamp": "2024-06-29T01:55:21",
+    "hour": 1,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0011",
+    "card_id": "CARD_0018",
+    "merchant_id": "M008",
+    "amount": 298.29,
+    "timestamp": "2024-06-22T15:13:34",
+    "hour": 15,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0012",
+    "card_id": "CARD_0057",
+    "merchant_id": "M030",
+    "amount": 440.59,
+    "timestamp": "2024-06-19T18:30:15",
+    "hour": 18,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0013",
+    "card_id": "CARD_0027",
+    "merchant_id": "M026",
+    "amount": 900.86,
+    "timestamp": "2024-06-07T03:06:42",
+    "hour": 3,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0014",
+    "card_id": "CARD_0027",
+    "merchant_id": "M014",
+    "amount": 1226.49,
+    "timestamp": "2024-06-15T23:03:43",
+    "hour": 23,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0015",
+    "card_id": "CARD_0007",
+    "merchant_id": "M021",
+    "amount": 2167.16,
+    "timestamp": "2024-06-02T12:46:21",
+    "hour": 12,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0016",
+    "card_id": "CARD_0016",
+    "merchant_id": "M004",
+    "amount": 110.12,
+    "timestamp": "2024-06-07T06:34:28",
+    "hour": 6,
+    "velocity_1h": 1,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0017",
+    "card_id": "CARD_0018",
+    "merchant_id": "M006",
+    "amount": 221.49,
+    "timestamp": "2024-06-15T07:55:59",
+    "hour": 7,
+    "velocity_1h": 1,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0018",
+    "card_id": "CARD_0056",
+    "merchant_id": "M026",
+    "amount": 1360.37,
+    "timestamp": "2024-06-28T17:06:03",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0019",
+    "card_id": "CARD_0054",
+    "merchant_id": "M018",
+    "amount": 2334.55,
+    "timestamp": "2024-06-01T02:59:48",
+    "hour": 2,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0020",
+    "card_id": "CARD_0027",
+    "merchant_id": "M006",
+    "amount": 1156.69,
+    "timestamp": "2024-06-16T15:13:55",
+    "hour": 15,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0021",
+    "card_id": "CARD_0011",
+    "merchant_id": "M002",
+    "amount": 1687.22,
+    "timestamp": "2024-06-13T00:24:16",
+    "hour": 0,
+    "velocity_1h": 1,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0022",
+    "card_id": "CARD_0030",
+    "merchant_id": "M026",
+    "amount": 2073.81,
+    "timestamp": "2024-06-10T13:44:46",
+    "hour": 13,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0023",
+    "card_id": "CARD_0043",
+    "merchant_id": "M018",
+    "amount": 819.42,
+    "timestamp": "2024-06-23T15:09:12",
+    "hour": 15,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0024",
+    "card_id": "CARD_0038",
+    "merchant_id": "M002",
+    "amount": 574.39,
+    "timestamp": "2024-06-24T17:03:47",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0025",
+    "card_id": "CARD_0038",
+    "merchant_id": "M002",
+    "amount": 969.33,
+    "timestamp": "2024-06-16T16:58:54",
+    "hour": 16,
+    "velocity_1h": 1,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0026",
+    "card_id": "CARD_0033",
+    "merchant_id": "M002",
+    "amount": 128.39,
+    "timestamp": "2024-06-03T05:04:38",
+    "hour": 5,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0027",
+    "card_id": "CARD_0016",
+    "merchant_id": "M028",
+    "amount": 709.66,
+    "timestamp": "2024-06-13T03:56:36",
+    "hour": 3,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0028",
+    "card_id": "CARD_0003",
+    "merchant_id": "M020",
+    "amount": 517.37,
+    "timestamp": "2024-06-20T02:26:42",
+    "hour": 2,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0029",
+    "card_id": "CARD_0021",
+    "merchant_id": "M017",
+    "amount": 1747.87,
+    "timestamp": "2024-06-30T08:13:42",
+    "hour": 8,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0030",
+    "card_id": "CARD_0017",
+    "merchant_id": "M008",
+    "amount": 669.98,
+    "timestamp": "2024-06-13T04:42:41",
+    "hour": 4,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0031",
+    "card_id": "CARD_0049",
+    "merchant_id": "M011",
+    "amount": 1838.95,
+    "timestamp": "2024-06-30T02:00:29",
+    "hour": 2,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0032",
+    "card_id": "CARD_0007",
+    "merchant_id": "M019",
+    "amount": 536.11,
+    "timestamp": "2024-06-03T17:13:32",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0033",
+    "card_id": "CARD_0023",
+    "merchant_id": "M030",
+    "amount": 210.15,
+    "timestamp": "2024-06-29T02:56:15",
+    "hour": 2,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0034",
+    "card_id": "CARD_0029",
+    "merchant_id": "M006",
+    "amount": 1761.59,
+    "timestamp": "2024-06-27T17:45:19",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0035",
+    "card_id": "CARD_0042",
+    "merchant_id": "M026",
+    "amount": 1157.64,
+    "timestamp": "2024-06-17T00:42:52",
+    "hour": 0,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0036",
+    "card_id": "CARD_0043",
+    "merchant_id": "M030",
+    "amount": 498.93,
+    "timestamp": "2024-06-04T04:16:07",
+    "hour": 4,
+    "velocity_1h": 2,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0037",
+    "card_id": "CARD_0036",
+    "merchant_id": "M024",
+    "amount": 262.63,
+    "timestamp": "2024-06-05T08:18:38",
+    "hour": 8,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0038",
+    "card_id": "CARD_0014",
+    "merchant_id": "M011",
+    "amount": 1497.2,
+    "timestamp": "2024-06-22T20:54:16",
+    "hour": 20,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0039",
+    "card_id": "CARD_0058",
+    "merchant_id": "M009",
+    "amount": 727.15,
+    "timestamp": "2024-06-30T01:05:40",
+    "hour": 1,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0040",
+    "card_id": "CARD_0003",
+    "merchant_id": "M009",
+    "amount": 1091.2,
+    "timestamp": "2024-06-01T10:49:08",
+    "hour": 10,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0041",
+    "card_id": "CARD_0011",
+    "merchant_id": "M009",
+    "amount": 734.15,
+    "timestamp": "2024-06-24T14:35:45",
+    "hour": 14,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0042",
+    "card_id": "CARD_0008",
+    "merchant_id": "M001",
+    "amount": 452.55,
+    "timestamp": "2024-06-03T22:57:09",
+    "hour": 22,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0043",
+    "card_id": "CARD_0024",
+    "merchant_id": "M027",
+    "amount": 60.6,
+    "timestamp": "2024-06-19T17:09:27",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0044",
+    "card_id": "CARD_0024",
+    "merchant_id": "M010",
+    "amount": 455.43,
+    "timestamp": "2024-06-29T01:57:22",
+    "hour": 1,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0045",
+    "card_id": "CARD_0043",
+    "merchant_id": "M008",
+    "amount": 1964.79,
+    "timestamp": "2024-06-04T11:49:35",
+    "hour": 11,
+    "velocity_1h": 2,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0046",
+    "card_id": "CARD_0040",
+    "merchant_id": "M014",
+    "amount": 447.53,
+    "timestamp": "2024-06-24T04:59:59",
+    "hour": 4,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0047",
+    "card_id": "CARD_0052",
+    "merchant_id": "M006",
+    "amount": 76.18,
+    "timestamp": "2024-06-26T05:56:26",
+    "hour": 5,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0048",
+    "card_id": "CARD_0022",
+    "merchant_id": "M024",
+    "amount": 1061.87,
+    "timestamp": "2024-06-26T13:51:42",
+    "hour": 13,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0049",
+    "card_id": "CARD_0016",
+    "merchant_id": "M026",
+    "amount": 229.66,
+    "timestamp": "2024-06-09T05:50:44",
+    "hour": 5,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0050",
+    "card_id": "CARD_0003",
+    "merchant_id": "M028",
+    "amount": 2342.05,
+    "timestamp": "2024-06-28T15:14:12",
+    "hour": 15,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0051",
+    "card_id": "CARD_0023",
+    "merchant_id": "M015",
+    "amount": 959.59,
+    "timestamp": "2024-06-10T07:14:01",
+    "hour": 7,
+    "velocity_1h": 1,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0052",
+    "card_id": "CARD_0022",
+    "merchant_id": "M013",
+    "amount": 419.75,
+    "timestamp": "2024-06-09T02:49:17",
+    "hour": 2,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0053",
+    "card_id": "CARD_0026",
+    "merchant_id": "M017",
+    "amount": 285.69,
+    "timestamp": "2024-06-22T17:21:01",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0054",
+    "card_id": "CARD_0012",
+    "merchant_id": "M009",
+    "amount": 1022.08,
+    "timestamp": "2024-06-19T08:02:06",
+    "hour": 8,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0055",
+    "card_id": "CARD_0047",
+    "merchant_id": "M012",
+    "amount": 906.15,
+    "timestamp": "2024-06-26T10:27:38",
+    "hour": 10,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0056",
+    "card_id": "CARD_0025",
+    "merchant_id": "M004",
+    "amount": 38.28,
+    "timestamp": "2024-06-29T18:12:16",
+    "hour": 18,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0057",
+    "card_id": "CARD_0001",
+    "merchant_id": "M014",
+    "amount": 1762.62,
+    "timestamp": "2024-06-17T17:43:46",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0058",
+    "card_id": "CARD_0043",
+    "merchant_id": "M024",
+    "amount": 1165.61,
+    "timestamp": "2024-06-07T11:27:04",
+    "hour": 11,
+    "velocity_1h": 2,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0059",
+    "card_id": "CARD_0022",
+    "merchant_id": "M030",
+    "amount": 74.19,
+    "timestamp": "2024-06-20T10:42:54",
+    "hour": 10,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0060",
+    "card_id": "CARD_0020",
+    "merchant_id": "M029",
+    "amount": 519.44,
+    "timestamp": "2024-06-17T09:42:26",
+    "hour": 9,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0061",
+    "card_id": "CARD_0019",
+    "merchant_id": "M023",
+    "amount": 374.14,
+    "timestamp": "2024-06-18T04:12:26",
+    "hour": 4,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0062",
+    "card_id": "CARD_0044",
+    "merchant_id": "M013",
+    "amount": 360.46,
+    "timestamp": "2024-06-24T05:39:36",
+    "hour": 5,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0063",
+    "card_id": "CARD_0054",
+    "merchant_id": "M018",
+    "amount": 1184.98,
+    "timestamp": "2024-06-01T09:18:13",
+    "hour": 9,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0064",
+    "card_id": "CARD_0039",
+    "merchant_id": "M019",
+    "amount": 890.5,
+    "timestamp": "2024-06-21T10:29:28",
+    "hour": 10,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0065",
+    "card_id": "CARD_0033",
+    "merchant_id": "M007",
+    "amount": 38.37,
+    "timestamp": "2024-06-16T23:10:42",
+    "hour": 23,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0066",
+    "card_id": "CARD_0043",
+    "merchant_id": "M017",
+    "amount": 1996.65,
+    "timestamp": "2024-06-21T19:21:05",
+    "hour": 19,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0067",
+    "card_id": "CARD_0016",
+    "merchant_id": "M025",
+    "amount": 584.81,
+    "timestamp": "2024-06-22T09:14:51",
+    "hour": 9,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0068",
+    "card_id": "CARD_0003",
+    "merchant_id": "M001",
+    "amount": 635.39,
+    "timestamp": "2024-06-08T15:39:54",
+    "hour": 15,
+    "velocity_1h": 2,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0069",
+    "card_id": "CARD_0027",
+    "merchant_id": "M015",
+    "amount": 1043.93,
+    "timestamp": "2024-06-29T20:36:12",
+    "hour": 20,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0070",
+    "card_id": "CARD_0032",
+    "merchant_id": "M013",
+    "amount": 817.18,
+    "timestamp": "2024-06-13T07:09:41",
+    "hour": 7,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0071",
+    "card_id": "CARD_0049",
+    "merchant_id": "M029",
+    "amount": 350.14,
+    "timestamp": "2024-06-28T03:49:27",
+    "hour": 3,
+    "velocity_1h": 1,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0072",
+    "card_id": "CARD_0045",
+    "merchant_id": "M026",
+    "amount": 522.91,
+    "timestamp": "2024-06-17T14:03:35",
+    "hour": 14,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0073",
+    "card_id": "CARD_0008",
+    "merchant_id": "M028",
+    "amount": 1915.59,
+    "timestamp": "2024-06-15T04:51:29",
+    "hour": 4,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0074",
+    "card_id": "CARD_0039",
+    "merchant_id": "M018",
+    "amount": 1979.31,
+    "timestamp": "2024-06-11T14:39:52",
+    "hour": 14,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0075",
+    "card_id": "CARD_0028",
+    "merchant_id": "M017",
+    "amount": 392.31,
+    "timestamp": "2024-06-27T17:28:57",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0076",
+    "card_id": "CARD_0031",
+    "merchant_id": "M028",
+    "amount": 2408.67,
+    "timestamp": "2024-06-15T08:48:15",
+    "hour": 8,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0077",
+    "card_id": "CARD_0050",
+    "merchant_id": "M009",
+    "amount": 412.89,
+    "timestamp": "2024-06-25T16:31:40",
+    "hour": 16,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0078",
+    "card_id": "CARD_0005",
+    "merchant_id": "M015",
+    "amount": 490.73,
+    "timestamp": "2024-06-23T09:15:17",
+    "hour": 9,
+    "velocity_1h": 2,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0079",
+    "card_id": "CARD_0035",
+    "merchant_id": "M029",
+    "amount": 609.1,
+    "timestamp": "2024-06-03T04:09:14",
+    "hour": 4,
+    "velocity_1h": 1,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0080",
+    "card_id": "CARD_0046",
+    "merchant_id": "M005",
+    "amount": 708.34,
+    "timestamp": "2024-06-07T02:26:26",
+    "hour": 2,
+    "velocity_1h": 0,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0081",
+    "card_id": "CARD_0027",
+    "merchant_id": "M015",
+    "amount": 568.29,
+    "timestamp": "2024-06-02T06:53:26",
+    "hour": 6,
+    "velocity_1h": 4,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0082",
+    "card_id": "CARD_0038",
+    "merchant_id": "M025",
+    "amount": 2234.2,
+    "timestamp": "2024-06-23T00:54:56",
+    "hour": 0,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0083",
+    "card_id": "CARD_0031",
+    "merchant_id": "M013",
+    "amount": 465.63,
+    "timestamp": "2024-06-01T11:19:48",
+    "hour": 11,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0084",
+    "card_id": "CARD_0054",
+    "merchant_id": "M029",
+    "amount": 866.33,
+    "timestamp": "2024-06-14T17:47:47",
+    "hour": 17,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0085",
+    "card_id": "CARD_0058",
+    "merchant_id": "M020",
+    "amount": 387.59,
+    "timestamp": "2024-06-08T15:14:17",
+    "hour": 15,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0086",
+    "card_id": "CARD_0025",
+    "merchant_id": "M001",
+    "amount": 336.66,
+    "timestamp": "2024-06-11T21:43:51",
+    "hour": 21,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0087",
+    "card_id": "CARD_0054",
+    "merchant_id": "M006",
+    "amount": 82.44,
+    "timestamp": "2024-06-15T04:39:34",
+    "hour": 4,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0088",
+    "card_id": "CARD_0038",
+    "merchant_id": "M013",
+    "amount": 764.18,
+    "timestamp": "2024-06-19T21:01:05",
+    "hour": 21,
+    "velocity_1h": 2,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0089",
+    "card_id": "CARD_0056",
+    "merchant_id": "M005",
+    "amount": 810.85,
+    "timestamp": "2024-06-15T05:03:16",
+    "hour": 5,
+    "velocity_1h": 1,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0090",
+    "card_id": "CARD_0030",
+    "merchant_id": "M007",
+    "amount": 154.19,
+    "timestamp": "2024-06-11T10:48:56",
+    "hour": 10,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0091",
+    "card_id": "CARD_0054",
+    "merchant_id": "M025",
+    "amount": 1374.4,
+    "timestamp": "2024-06-14T08:53:05",
+    "hour": 8,
+    "velocity_1h": 2,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0092",
+    "card_id": "CARD_0035",
+    "merchant_id": "M024",
+    "amount": 88.93,
+    "timestamp": "2024-06-02T11:14:41",
+    "hour": 11,
+    "velocity_1h": 2,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0093",
+    "card_id": "CARD_0003",
+    "merchant_id": "M021",
+    "amount": 2271.51,
+    "timestamp": "2024-06-25T00:15:12",
+    "hour": 0,
+    "velocity_1h": 1,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0094",
+    "card_id": "CARD_0010",
+    "merchant_id": "M020",
+    "amount": 105.42,
+    "timestamp": "2024-06-08T04:30:42",
+    "hour": 4,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0095",
+    "card_id": "CARD_0030",
+    "merchant_id": "M007",
+    "amount": 71.03,
+    "timestamp": "2024-06-23T08:49:23",
+    "hour": 8,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0096",
+    "card_id": "CARD_0048",
+    "merchant_id": "M020",
+    "amount": 148.76,
+    "timestamp": "2024-06-23T03:49:52",
+    "hour": 3,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0097",
+    "card_id": "CARD_0007",
+    "merchant_id": "M010",
+    "amount": 1239.59,
+    "timestamp": "2024-06-19T00:59:19",
+    "hour": 0,
+    "velocity_1h": 0,
+    "label": "suspicious"
+  },
+  {
+    "transaction_id": "T0098",
+    "card_id": "CARD_0025",
+    "merchant_id": "M030",
+    "amount": 333.71,
+    "timestamp": "2024-06-13T22:12:04",
+    "hour": 22,
+    "velocity_1h": 1,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "T0099",
+    "card_id": "CARD_0041",
+    "merchant_id": "M027",
+    "amount": 136.58,
+    "timestamp": "2024-06-08T03:44:49",
+    "hour": 3,
+    "velocity_1h": 0,
+    "label": "legitimate"
+  },
+  {
+    "transaction_id": "T0100",
+    "card_id": "CARD_0039",
+    "merchant_id": "M022",
+    "amount": 1243.46,
+    "timestamp": "2024-06-26T03:50:36",
+    "hour": 3,
+    "velocity_1h": 0,
+    "label": "fraud"
+  }
+]
