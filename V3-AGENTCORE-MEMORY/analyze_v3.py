@@ -3,10 +3,7 @@ import pandas as pd
 import itertools
 import sys
 
-# =========================================================
-# AWS
-# =========================================================
-
+# BEDROCK CLIENT
 bedrock = boto3.client(
     "bedrock-runtime",
     region_name="us-east-1"
@@ -14,10 +11,7 @@ bedrock = boto3.client(
 
 MODEL_ID = "global.anthropic.claude-sonnet-4-6"
 
-# =========================================================
 # RULE ENGINE
-# =========================================================
-
 WEIGHTS = {
     "high_amount_deviation": 30,
     "country_deviation": 25,
@@ -30,10 +24,7 @@ WEIGHTS = {
 THRESHOLD_FRAUD = 60
 THRESHOLD_SUSPICIOUS = 30
 
-# =========================================================
 # LOAD DATA
-# =========================================================
-
 transactions_df = pd.read_csv(
     "../shared/transactions.csv"
 )
@@ -49,18 +40,12 @@ memory_map = {
 
 analysis_results = []
 
-# =========================================================
 # SPINNER
-# =========================================================
-
 spinner = itertools.cycle(
     ["|", "/", "-", "\\"]
 )
 
-# =========================================================
 # ANALYSIS
-# =========================================================
-
 for _, row in transactions_df.iterrows():
 
     memory = memory_map[
@@ -71,10 +56,7 @@ for _, row in transactions_df.iterrows():
 
     factors = []
 
-    # =====================================================
     # MEMORY COMPARISON
-    # =====================================================
-
     if row["amount"] > (
         memory["avg_amount"] * 3
     ):
@@ -145,10 +127,7 @@ for _, row in transactions_df.iterrows():
 
     score = min(score, 100)
 
-    # =====================================================
     # PROMPT
-    # =====================================================
-
     prompt = f"""
 You are an advanced fraud detection agent.
 
@@ -195,10 +174,7 @@ Do not explain.
 Do not use markdown.
 """
 
-    # =====================================================
     # BEDROCK INFERENCE
-    # =====================================================
-
     response = bedrock.converse(
         modelId=MODEL_ID,
         messages=[
@@ -217,10 +193,7 @@ Do not use markdown.
         }
     )
 
-    # =====================================================
     # CLASSIFICATION
-    # =====================================================
-
     classification = (
         response["output"]["message"]["content"][0]["text"]
         .strip()
@@ -228,10 +201,7 @@ Do not use markdown.
         .upper()
     )
 
-    # =====================================================
     # TOKEN OBSERVABILITY
-    # =====================================================
-
     usage = response.get(
         "usage",
         {}
@@ -252,10 +222,7 @@ Do not use markdown.
         0
     )
 
-    # =====================================================
     # SAVE RESULTS
-    # =====================================================
-
     analysis_results.append({
 
         "transaction_id": row["transaction_id"],
@@ -273,10 +240,8 @@ Do not use markdown.
         "total_tokens": total_tokens
     })
 
-    # =====================================================
-    # TERMINAL SPINNER
-    # =====================================================
 
+    # TERMINAL SPINNER
     sys.stdout.write(
         f"\rProcessing behavioral fraud analysis and token observability... "
         f"{next(spinner)}"
@@ -284,10 +249,7 @@ Do not use markdown.
 
     sys.stdout.flush()
 
-# =========================================================
 # SAVE
-# =========================================================
-
 analysis_df = pd.DataFrame(
     analysis_results
 )
@@ -297,9 +259,6 @@ analysis_df.to_csv(
     index=False
 )
 
-# =========================================================
 # FINISHED
-# =========================================================
-
 print("\nV3 behavioral analysis completed.")
 print("File generated: analysis_v3.csv")

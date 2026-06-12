@@ -1,101 +1,101 @@
 transaction_id,risk_score,classification,risk_factors,input_tokens,output_tokens,total_tokens
-1,95,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | High-risk merchant | Card not present,220,5,225
-2,70,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | Card not present,215,5,220
-3,35,SUSPICIOUS,High transaction amount | Card not present,201,5,206
-4,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | Card not present,220,5,225
-5,55,SUSPICIOUS,High transaction amount | High transaction velocity,201,5,206
-6,75,FRAUD,High transaction amount | Device recently changed | High-risk merchant | Card not present,212,5,217
-7,50,SUSPICIOUS,High transaction velocity | Country mismatch detected,205,5,210
-8,55,SUSPICIOUS,High transaction amount | Country mismatch detected | Card not present,210,5,215
-9,90,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected,214,5,219
-10,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | Card not present,219,5,224
-11,45,SUSPICIOUS,High transaction velocity | Device recently changed,203,5,208
-12,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | Card not present,220,5,225
-13,80,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Card not present,211,5,216
-14,65,FRAUD,High transaction velocity | Device recently changed | Country mismatch detected,208,5,213
-15,55,SUSPICIOUS,High transaction amount | Country mismatch detected | Card not present,210,5,215
-16,60,FRAUD,High transaction velocity | Country mismatch detected | Card not present,208,5,213
-17,70,FRAUD,Device recently changed | Country mismatch detected | High-risk merchant | Card not present,214,5,219
-18,55,SUSPICIOUS,High transaction velocity | High-risk merchant,204,5,209
-19,20,LEGIT,Country mismatch detected,199,3,202
-20,45,SUSPICIOUS,High transaction amount | Country mismatch detected,204,5,209
-21,95,FRAUD,High transaction amount | High transaction velocity | Device recently changed | High-risk merchant,214,5,219
-22,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,209,5,214
-23,50,SUSPICIOUS,High transaction amount | Device recently changed | Card not present,208,5,213
-24,90,FRAUD,High transaction amount | High transaction velocity | High-risk merchant | Card not present,214,5,219
-25,65,FRAUD,High transaction amount | High transaction velocity | Card not present,206,5,211
-26,70,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | Card not present,213,5,218
-27,75,FRAUD,High transaction amount | Device recently changed | High-risk merchant | Card not present,212,5,217
-28,25,LEGIT,High transaction amount,197,3,200
-29,65,FRAUD,High transaction velocity | Device recently changed | Country mismatch detected,209,5,214
-30,35,SUSPICIOUS,High transaction amount | Card not present,202,5,207
-31,70,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | Card not present,213,5,218
-32,35,SUSPICIOUS,Device recently changed | Country mismatch detected,203,5,208
-33,70,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | Card not present,215,5,220
-34,70,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | Card not present,214,5,219
-35,65,FRAUD,High transaction amount | High transaction velocity | Card not present,207,5,212
-36,35,SUSPICIOUS,Device recently changed | Country mismatch detected,202,5,207
-37,90,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected,213,5,218
-38,75,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected,208,5,213
-39,55,SUSPICIOUS,High transaction amount | Country mismatch detected | Card not present,209,5,214
-40,55,SUSPICIOUS,Country mismatch detected | High-risk merchant | Card not present,209,5,214
-41,75,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected,209,5,214
-42,70,FRAUD,High transaction amount | Country mismatch detected | High-risk merchant,209,5,214
-43,90,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected,213,5,218
-44,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | Card not present,220,5,225
-45,45,SUSPICIOUS,High transaction amount | Country mismatch detected,205,5,210
-46,75,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected,209,5,214
-47,20,LEGIT,Country mismatch detected,198,3,201
-48,95,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | High-risk merchant | Card not present,220,5,225
-49,35,SUSPICIOUS,Device recently changed | Country mismatch detected,203,5,208
-50,100,FRAUD,High transaction velocity | Device recently changed | Country mismatch detected | High-risk merchant | Card not present,219,5,224
-51,55,SUSPICIOUS,High transaction velocity | Device recently changed | Card not present,205,5,210
-52,100,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | High-risk merchant,214,5,219
-53,70,FRAUD,High transaction amount | Country mismatch detected | High-risk merchant,210,5,215
-54,45,SUSPICIOUS,High transaction amount | Country mismatch detected,204,5,209
-55,55,SUSPICIOUS,Country mismatch detected | High-risk merchant | Card not present,209,5,214
-56,45,SUSPICIOUS,Country mismatch detected | High-risk merchant,204,5,209
-57,25,LEGIT,Device recently changed | Card not present,203,3,206
-58,30,SUSPICIOUS,Country mismatch detected | Card not present,205,5,210
-59,50,SUSPICIOUS,High transaction amount | Device recently changed | Card not present,207,5,212
-60,100,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | High-risk merchant,215,5,220
-61,90,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected,214,5,219
-62,35,SUSPICIOUS,Device recently changed | Country mismatch detected,204,5,209
-63,35,SUSPICIOUS,Device recently changed | Country mismatch detected,203,5,208
-64,75,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected,210,5,215
-65,45,SUSPICIOUS,High transaction amount | Country mismatch detected,204,5,209
-66,85,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | High-risk merchant,214,5,219
-67,80,FRAUD,High transaction velocity | Device recently changed | High-risk merchant | Card not present,214,5,219
-68,75,FRAUD,High transaction velocity | Country mismatch detected | High-risk merchant,208,5,213
-69,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,209,5,214
-70,50,SUSPICIOUS,Device recently changed | High-risk merchant | Card not present,206,5,211
-71,90,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected,214,5,219
-72,0,SUSPICIOUS,,194,5,199
-73,60,FRAUD,High transaction velocity | Country mismatch detected | Card not present,209,5,214
-74,55,SUSPICIOUS,High transaction amount | Country mismatch detected | Card not present,209,5,214
-75,100,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | High-risk merchant,215,5,220
-76,70,FRAUD,High transaction velocity | Device recently changed | High-risk merchant,206,5,211
-77,70,FRAUD,Device recently changed | Country mismatch detected | High-risk merchant | Card not present,214,5,219
-78,45,SUSPICIOUS,High transaction velocity | Device recently changed,202,5,207
-79,45,SUSPICIOUS,High transaction amount | Country mismatch detected,203,5,208
-80,95,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | High-risk merchant | Card not present,220,5,225
-81,85,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | Card not present,215,5,220
-82,40,SUSPICIOUS,High transaction amount | Device recently changed,201,5,206
-83,70,FRAUD,High transaction amount | Country mismatch detected | High-risk merchant,210,5,215
-84,15,LEGIT,Device recently changed,196,3,199
-85,70,FRAUD,High transaction amount | Country mismatch detected | High-risk merchant,210,5,215
-86,75,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected,209,5,214
-87,90,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected,214,5,219
-88,45,SUSPICIOUS,High transaction amount | Country mismatch detected,204,5,209
-89,55,SUSPICIOUS,High transaction amount | Country mismatch detected | Card not present,209,5,214
-90,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | Card not present,218,5,223
-91,80,FRAUD,High transaction amount | High transaction velocity | High-risk merchant,207,5,212
-92,85,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | Card not present,213,5,218
-93,20,LEGIT,Country mismatch detected,198,3,201
-94,70,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | Card not present,214,5,219
-95,25,LEGIT,High transaction amount,196,3,199
-96,75,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected,208,5,213
-97,65,FRAUD,High transaction amount | High transaction velocity | Card not present,209,5,214
-98,65,FRAUD,High transaction amount | High transaction velocity | Card not present,207,5,212
-99,20,LEGIT,Country mismatch detected,200,3,203
-100,25,LEGIT,Device recently changed | Card not present,202,3,205
+1,80,FRAUD,High transaction amount | Country mismatch detected | High-risk merchant | Card not present,215,5,220
+2,85,FRAUD,High transaction velocity | Country mismatch detected | High-risk merchant | Card not present,214,5,219
+3,75,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected,209,5,214
+4,70,FRAUD,High transaction amount | High transaction velocity | Device recently changed,207,5,212
+5,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,210,5,215
+6,70,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | Card not present,214,5,219
+7,65,FRAUD,High transaction velocity | High-risk merchant | Card not present,206,5,211
+8,30,SUSPICIOUS,Country mismatch detected | Card not present,203,5,208
+9,75,FRAUD,High transaction amount | Device recently changed | High-risk merchant | Card not present,214,5,219
+10,70,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | Card not present,214,5,219
+11,45,SUSPICIOUS,High transaction amount | Country mismatch detected,204,5,209
+12,0,LEGIT,,192,3,195
+13,75,FRAUD,High transaction velocity | Device recently changed | Country mismatch detected | Card not present,215,5,220
+14,80,FRAUD,High transaction velocity | Device recently changed | High-risk merchant | Card not present,212,5,217
+15,35,SUSPICIOUS,Device recently changed | Country mismatch detected,202,5,207
+16,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,209,5,214
+17,75,FRAUD,High transaction amount | Country mismatch detected | New customer account | Card not present,214,5,219
+18,35,SUSPICIOUS,Device recently changed | Country mismatch detected,203,5,208
+19,100,FRAUD,High transaction velocity | Device recently changed | Country mismatch detected | High-risk merchant | Card not present,219,5,224
+20,0,LEGIT,,191,3,194
+21,55,SUSPICIOUS,High transaction velocity | High-risk merchant,201,5,206
+22,30,SUSPICIOUS,Country mismatch detected | Card not present,203,5,208
+23,65,FRAUD,High transaction velocity | Device recently changed | Country mismatch detected,208,5,213
+24,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | High-risk merchant | Card not present,225,5,230
+25,85,FRAUD,High transaction velocity | Country mismatch detected | High-risk merchant | Card not present,214,5,219
+26,60,FRAUD,High transaction velocity | Country mismatch detected | Card not present,208,5,213
+27,100,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | High-risk merchant,215,5,220
+28,75,FRAUD,High transaction velocity | Country mismatch detected | High-risk merchant,210,5,215
+29,60,FRAUD,Device recently changed | Country mismatch detected | High-risk merchant,210,5,215
+30,60,FRAUD,High transaction velocity | Country mismatch detected | Card not present,209,5,214
+31,60,FRAUD,High transaction velocity | Country mismatch detected | Card not present,209,5,214
+32,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,209,5,214
+33,90,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected,215,5,220
+34,45,SUSPICIOUS,High transaction amount | Country mismatch detected,204,5,209
+35,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | Card not present,218,5,223
+36,45,SUSPICIOUS,Device recently changed | Country mismatch detected | Card not present,209,5,214
+37,30,SUSPICIOUS,Country mismatch detected | Card not present,202,5,207
+38,70,FRAUD,High transaction amount | Country mismatch detected | High-risk merchant,209,5,214
+39,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,208,5,213
+40,70,FRAUD,High transaction amount | Country mismatch detected | High-risk merchant,209,5,214
+41,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | High-risk merchant,219,5,224
+42,75,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected,209,5,214
+43,55,SUSPICIOUS,High transaction velocity | High-risk merchant,202,5,207
+44,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | High-risk merchant,219,5,224
+45,35,SUSPICIOUS,Device recently changed | Country mismatch detected,204,5,209
+46,35,SUSPICIOUS,High transaction amount | Card not present,201,5,206
+47,85,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | High-risk merchant,215,5,220
+48,15,LEGIT,Device recently changed,198,3,201
+49,95,FRAUD,High transaction amount | Device recently changed | Country mismatch detected | High-risk merchant | Card not present,219,5,224
+50,100,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | High-risk merchant,214,5,219
+51,55,SUSPICIOUS,Country mismatch detected | High-risk merchant | Card not present,209,5,214
+52,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | High-risk merchant | Card not present,224,5,229
+53,55,SUSPICIOUS,High transaction amount | Country mismatch detected | Card not present,209,5,214
+54,25,LEGIT,Device recently changed | Card not present,202,3,205
+55,30,SUSPICIOUS,Country mismatch detected | Card not present,204,5,209
+56,15,LEGIT,Device recently changed,195,3,198
+57,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,210,5,215
+58,100,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | High-risk merchant,214,5,219
+59,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | Card not present,220,5,225
+60,0,LEGIT,,191,3,194
+61,65,FRAUD,High transaction velocity | Device recently changed | Country mismatch detected,209,5,214
+62,25,LEGIT,High-risk merchant,199,3,202
+63,75,FRAUD,High transaction amount | Device recently changed | High-risk merchant | Card not present,212,5,217
+64,35,SUSPICIOUS,Device recently changed | Country mismatch detected,203,5,208
+65,35,SUSPICIOUS,Device recently changed | Country mismatch detected,203,5,208
+66,80,FRAUD,High transaction amount | High transaction velocity | High-risk merchant,207,5,212
+67,10,LEGIT,Card not present,196,3,199
+68,45,SUSPICIOUS,High transaction amount | Country mismatch detected,205,5,210
+69,60,FRAUD,Device recently changed | Country mismatch detected | High-risk merchant,209,5,214
+70,40,SUSPICIOUS,High transaction amount | Device recently changed,202,5,207
+71,50,SUSPICIOUS,High transaction amount | Device recently changed | Card not present,207,5,212
+72,30,SUSPICIOUS,Country mismatch detected | Card not present,205,5,210
+73,70,FRAUD,High transaction amount | Country mismatch detected | High-risk merchant,210,5,215
+74,90,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected,215,5,220
+75,90,FRAUD,High transaction velocity | Device recently changed | Country mismatch detected | High-risk merchant,214,5,219
+76,75,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected,209,5,214
+77,75,FRAUD,High transaction velocity | Country mismatch detected | High-risk merchant,209,5,214
+78,35,SUSPICIOUS,High-risk merchant | Card not present,202,5,207
+79,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,209,5,214
+80,80,FRAUD,High transaction amount | High transaction velocity | High-risk merchant,207,5,212
+81,60,FRAUD,Device recently changed | Country mismatch detected | High-risk merchant,209,5,214
+82,85,FRAUD,High transaction velocity | Country mismatch detected | High-risk merchant | Card not present,213,5,218
+83,90,FRAUD,High transaction velocity | Device recently changed | Country mismatch detected | High-risk merchant,215,5,220
+84,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,209,5,214
+85,45,SUSPICIOUS,Device recently changed | Country mismatch detected | Card not present,208,5,213
+86,50,SUSPICIOUS,High transaction velocity | Country mismatch detected,202,5,207
+87,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | Card not present,219,5,224
+88,50,SUSPICIOUS,High transaction amount | Device recently changed | Card not present,206,5,211
+89,100,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | High-risk merchant | Card not present,220,5,225
+90,90,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected,214,5,219
+91,55,SUSPICIOUS,High transaction amount | Country mismatch detected | Card not present,208,5,213
+92,40,SUSPICIOUS,Device recently changed | High-risk merchant,202,5,207
+93,60,FRAUD,High transaction amount | Device recently changed | Country mismatch detected,209,5,214
+94,85,FRAUD,High transaction amount | High transaction velocity | Country mismatch detected | Card not present,214,5,219
+95,35,SUSPICIOUS,Device recently changed | Country mismatch detected,204,5,209
+96,85,FRAUD,High transaction velocity | Country mismatch detected | High-risk merchant | Card not present,214,5,219
+97,100,FRAUD,High transaction amount | High transaction velocity | Device recently changed | Country mismatch detected | Card not present,219,5,224
+98,35,SUSPICIOUS,Device recently changed | Country mismatch detected,204,5,209
+99,10,LEGIT,Card not present,196,3,199
+100,55,SUSPICIOUS,High transaction amount | Country mismatch detected | Card not present,208,5,213

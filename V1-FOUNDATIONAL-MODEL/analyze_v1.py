@@ -3,10 +3,7 @@ import pandas as pd
 import itertools
 import sys
 
-# =====================================================
 # BEDROCK CLIENT
-# =====================================================
-
 bedrock = boto3.client(
     "bedrock-runtime",
     region_name="us-east-1"
@@ -14,28 +11,19 @@ bedrock = boto3.client(
 
 MODEL_ID = "global.anthropic.claude-sonnet-4-6"
 
-# =====================================================
 # LOAD DATA
-# =====================================================
-
 df = pd.read_csv(
     "../shared/transactions.csv"
 )
 
 analysis_results = []
 
-# =====================================================
-# SPINNER
-# =====================================================
-
+# SPINNER - Frill for terminal output while processing transactions
 spinner = itertools.cycle(
     ["|", "/", "-", "\\"]
 )
 
-# =====================================================
 # MAIN LOOP
-# =====================================================
-
 for _, row in df.iterrows():
 
     prompt = f"""
@@ -69,10 +57,7 @@ Do not use markdown.
 Do not explain.
 """
 
-    # =====================================================
     # BEDROCK INFERENCE
-    # =====================================================
-
     response = bedrock.converse(
         modelId=MODEL_ID,
         messages=[
@@ -91,10 +76,7 @@ Do not explain.
         }
     )
 
-    # =====================================================
     # CLASSIFICATION
-    # =====================================================
-
     classification = (
         response["output"]["message"]["content"][0]["text"]
         .strip()
@@ -102,10 +84,7 @@ Do not explain.
         .upper()
     )
 
-    # =====================================================
     # TOKEN USAGE
-    # =====================================================
-
     usage = response.get(
         "usage",
         {}
@@ -132,10 +111,8 @@ Do not explain.
         6
     )
 
-    # =====================================================
-    # SAVE RESULTS
-    # =====================================================
 
+    # SAVE RESULTS
     analysis_results.append({
 
         "transaction_id": row["transaction_id"],
@@ -149,10 +126,7 @@ Do not explain.
         "context_usage_pct": context_usage_pct
     })
 
-    # =====================================================
     # TERMINAL SPINNER
-    # =====================================================
-
     sys.stdout.write(
         f"\rProcessing transactions and checking tokens... "
         f"{next(spinner)}"
@@ -160,10 +134,7 @@ Do not explain.
 
     sys.stdout.flush()
 
-# =====================================================
 # FINAL DATAFRAME
-# =====================================================
-
 analysis_df = pd.DataFrame(
     analysis_results
 )
@@ -173,9 +144,6 @@ analysis_df.to_csv(
     index=False
 )
 
-# =====================================================
 # FINISHED
-# =====================================================
-
 print("\nAnalysis completed.")
 print("File generated: analysis_v1.csv")

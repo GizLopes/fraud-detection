@@ -1,6 +1,6 @@
 import boto3
 
-BUCKET_NAME = "agentcore-outcomes-789065179500-us-east-1-an"
+BUCKET_NAME = "agent-core-outcomes"
 
 FILE_NAME = "analytics_operational_table.csv"
 

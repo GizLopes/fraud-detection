@@ -5,7 +5,7 @@ df = pd.read_csv(
     "../shared/transactions.csv"
 )
 
-# Seed fixa para estabilidade
+# Fixed Seed to stablishment of consistent customer_id assignment across runs
 random.seed(42)
 
 df["customer_id"] = [

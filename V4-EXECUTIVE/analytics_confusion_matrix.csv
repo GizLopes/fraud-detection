@@ -1,0 +1,101 @@
+transaction_id,true_label,v1_fm,v1_outcome,v2_agentcore rt,v2_outcome,v3_agentcore rt + memo,v3_outcome,behavioral_score,risk_factors
+1,FRAUD,SUSPICIOUS,TP,FRAUD,TP,SUSPICIOUS,TP,40,Merchant category differs from customer pattern | High-risk merchant
+2,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,65,Country differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+3,FRAUD,SUSPICIOUS,TP,FRAUD,TP,SUSPICIOUS,TP,50,Amount deviates from customer behavior | Transaction velocity abnormal
+4,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,90,Amount deviates from customer behavior | Country differs from customer pattern | Transaction velocity abnormal | Device recently changed
+5,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,65,Amount deviates from customer behavior | Merchant category differs from customer pattern | Device recently changed
+6,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,60,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+7,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,60,Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+8,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,SUSPICIOUS,TP,25,Country differs from customer pattern
+9,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+10,FRAUD,SUSPICIOUS,TP,FRAUD,TP,SUSPICIOUS,TP,40,Country differs from customer pattern | Device recently changed
+11,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,75,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern
+12,LEGIT,LEGIT,TN,LEGIT,TN,FRAUD,FP,75,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern
+13,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,80,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+14,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+15,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,SUSPICIOUS,TP,35,Merchant category differs from customer pattern | Device recently changed
+16,FRAUD,SUSPICIOUS,TP,FRAUD,TP,SUSPICIOUS,TP,55,Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+17,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,65,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal
+18,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,LEGIT,FN,15,Device recently changed
+19,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+20,LEGIT,LEGIT,TN,LEGIT,TN,LEGIT,TN,20,Merchant category differs from customer pattern
+21,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,85,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+22,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,SUSPICIOUS,TP,45,Country differs from customer pattern | Merchant category differs from customer pattern
+23,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,60,Country differs from customer pattern | Transaction velocity abnormal | Device recently changed
+24,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+25,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+26,FRAUD,SUSPICIOUS,TP,FRAUD,TP,SUSPICIOUS,TP,40,Merchant category differs from customer pattern | Transaction velocity abnormal
+27,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,95,Amount deviates from customer behavior | Country differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+28,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,85,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+29,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,80,Country differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+30,FRAUD,SUSPICIOUS,TP,FRAUD,TP,SUSPICIOUS,TP,45,Country differs from customer pattern | Transaction velocity abnormal
+31,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,65,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal
+32,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,65,Amount deviates from customer behavior | Merchant category differs from customer pattern | Device recently changed
+33,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,80,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+34,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,75,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern
+35,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+36,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,80,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+37,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,95,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal
+38,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,85,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+39,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,60,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+40,FRAUD,SUSPICIOUS,TP,FRAUD,TP,SUSPICIOUS,TP,45,Country differs from customer pattern | High-risk merchant
+41,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+42,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,95,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal
+43,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,60,Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+44,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+45,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,85,Amount deviates from customer behavior | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+46,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,75,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern
+47,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,80,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed | High-risk merchant
+48,LEGIT,SUSPICIOUS,FP,LEGIT,TN,FRAUD,FP,90,Amount deviates from customer behavior | Country differs from customer pattern | Transaction velocity abnormal | Device recently changed
+49,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,85,Amount deviates from customer behavior | Transaction velocity abnormal | Device recently changed | High-risk merchant
+50,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,60,Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+51,SUSPICIOUS,FRAUD,TP,SUSPICIOUS,TP,FRAUD,TP,65,Country differs from customer pattern | Merchant category differs from customer pattern | High-risk merchant
+52,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+53,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,75,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern
+54,LEGIT,SUSPICIOUS,FP,LEGIT,TN,FRAUD,FP,60,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+55,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,SUSPICIOUS,TP,45,Country differs from customer pattern | Merchant category differs from customer pattern
+56,LEGIT,SUSPICIOUS,FP,LEGIT,TN,SUSPICIOUS,FP,40,Country differs from customer pattern | Device recently changed
+57,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,60,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+58,FRAUD,FRAUD,TP,FRAUD,TP,SUSPICIOUS,TP,40,Transaction velocity abnormal | High-risk merchant
+59,FRAUD,FRAUD,TP,FRAUD,TP,SUSPICIOUS,TP,35,Transaction velocity abnormal | Device recently changed
+60,LEGIT,SUSPICIOUS,FP,LEGIT,TN,SUSPICIOUS,FP,45,Country differs from customer pattern | Merchant category differs from customer pattern
+61,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+62,LEGIT,SUSPICIOUS,FP,LEGIT,TN,FRAUD,FP,90,Amount deviates from customer behavior | Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+63,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,60,Country differs from customer pattern | Device recently changed | High-risk merchant
+64,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,60,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+65,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,80,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+66,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,75,Amount deviates from customer behavior | Country differs from customer pattern | High-risk merchant
+67,LEGIT,LEGIT,TN,LEGIT,TN,LEGIT,TN,20,Merchant category differs from customer pattern
+68,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,95,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal
+69,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,80,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed | High-risk merchant
+70,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,60,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+71,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,65,Amount deviates from customer behavior | Merchant category differs from customer pattern | Device recently changed
+72,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,SUSPICIOUS,TP,45,Country differs from customer pattern | Merchant category differs from customer pattern
+73,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+74,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,85,Amount deviates from customer behavior | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+75,FRAUD,FRAUD,TP,FRAUD,TP,SUSPICIOUS,TP,55,Transaction velocity abnormal | Device recently changed | High-risk merchant
+76,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,95,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal
+77,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,85,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+78,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,SUSPICIOUS,TP,45,Country differs from customer pattern | High-risk merchant
+79,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+80,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+81,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+82,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,85,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+83,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,100,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed | High-risk merchant
+84,FRAUD,SUSPICIOUS,TP,FRAUD,TP,SUSPICIOUS,TP,55,Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+85,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,90,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+86,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,65,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal
+87,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,90,Amount deviates from customer behavior | Country differs from customer pattern | Transaction velocity abnormal | Device recently changed
+88,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,90,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+89,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,95,Amount deviates from customer behavior | Country differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+90,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,80,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+91,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,75,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern
+92,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,80,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed | High-risk merchant
+93,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,60,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+94,FRAUD,SUSPICIOUS,TP,FRAUD,TP,FRAUD,TP,95,Amount deviates from customer behavior | Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal
+95,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,SUSPICIOUS,TP,35,Transaction velocity abnormal | Device recently changed
+96,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,65,Country differs from customer pattern | Transaction velocity abnormal | High-risk merchant
+97,FRAUD,FRAUD,TP,FRAUD,TP,FRAUD,TP,80,Country differs from customer pattern | Merchant category differs from customer pattern | Transaction velocity abnormal | Device recently changed
+98,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,FRAUD,TP,60,Country differs from customer pattern | Merchant category differs from customer pattern | Device recently changed
+99,LEGIT,LEGIT,TN,LEGIT,TN,LEGIT,TN,20,Merchant category differs from customer pattern
+100,SUSPICIOUS,SUSPICIOUS,TP,SUSPICIOUS,TP,SUSPICIOUS,TP,25,Country differs from customer pattern

@@ -1,15 +1,12 @@
 import pandas as pd
 
-# =========================================================
 # LOAD FILES
-# =========================================================
-
 truth_df = pd.read_csv(
     "../shared/hidden_ground_truth.csv"
 )
 
 v1_df = pd.read_csv(
-    "../V1-LLM-FM/analysis_v1.csv"
+    "../V1-FOUNDATIONAL-MODEL/analysis_v1.csv"
 )
 
 v2_df = pd.read_csv(
@@ -20,10 +17,7 @@ v3_df = pd.read_csv(
     "../V3-AGENTCORE-MEMORY/analysis_v3.csv"
 )
 
-# =========================================================
 # STANDARDIZE COLUMN NAMES
-# =========================================================
-
 v1_df = v1_df.rename(columns={
     "classification": "v1_fm"
 })
@@ -36,10 +30,7 @@ v3_df = v3_df.rename(columns={
     "classification": "v3_agentcore rt + memo"
 })
 
-# =========================================================
 # KEEP ONLY NECESSARY COLUMNS
-# =========================================================
-
 v1_df = v1_df[[
     "transaction_id",
     "v1_fm"
@@ -57,10 +48,8 @@ v3_df = v3_df[[
     "risk_factors"
 ]]
 
-# =========================================================
-# MERGE DATASETS
-# =========================================================
 
+# MERGE DATASETS
 df = truth_df.merge(
     v1_df,
     on="transaction_id",
@@ -79,10 +68,8 @@ df = df.merge(
     how="left"
 )
 
-# =========================================================
-# OPERATIONAL OUTCOME FUNCTION
-# =========================================================
 
+# OPERATIONAL OUTCOME FUNCTION
 POSITIVE_CLASSES = [
     "FRAUD",
     "SUSPICIOUS"
@@ -115,10 +102,7 @@ def compute_outcome(
     else:
         return "FN"
 
-# =========================================================
 # COMPUTE OUTCOMES
-# =========================================================
-
 df["v1_outcome"] = df.apply(
     lambda row: compute_outcome(
         row["true_label"],
@@ -143,10 +127,8 @@ df["v3_outcome"] = df.apply(
     axis=1
 )
 
-# =========================================================
-# COLUMN ORDER
-# =========================================================
 
+# COLUMN ORDER
 final_columns = [
 
     "transaction_id",
@@ -168,10 +150,7 @@ final_columns = [
 
 df = df[final_columns]
 
-# =========================================================
 # SAVE FINAL TABLE
-# =========================================================
-
 OUTPUT_FILE = "analytics_confusion_matrix.csv"
 
 df.to_csv(
@@ -179,10 +158,7 @@ df.to_csv(
     index=False
 )
 
-# =========================================================
 # SUMMARY
-# =========================================================
-
 print("\nComparison table generated successfully.")
 
 print(f"\nOutput file:")

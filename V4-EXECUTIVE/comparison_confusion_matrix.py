@@ -3,10 +3,8 @@ import matplotlib.pyplot as plt
 
 from sklearn.metrics import confusion_matrix
 
-# =========================================================
-# LOAD DATA
-# =========================================================
 
+# LOAD DATA
 truth_df = pd.read_csv(
     "../shared/hidden_ground_truth.csv"
 )
@@ -23,10 +21,8 @@ v3_df = pd.read_csv(
     "../V3-AGENTCORE-MEMORY/analysis_v3.csv"
 )
 
-# =========================================================
-# MERGE
-# =========================================================
 
+# MERGE
 v1 = truth_df.merge(
     v1_df,
     on="transaction_id"
@@ -42,10 +38,7 @@ v3 = truth_df.merge(
     on="transaction_id"
 )
 
-# =========================================================
 # BINARY CONVERSION
-# =========================================================
-
 def to_binary(label):
 
     if label == "FRAUD":
@@ -53,10 +46,7 @@ def to_binary(label):
 
     return 0
 
-# =========================================================
 # CONFUSION MATRIX FUNCTION
-# =========================================================
-
 def build_confusion(df):
 
     y_true = df["true_label"].apply(
@@ -72,18 +62,12 @@ def build_confusion(df):
         y_pred
     )
 
-# =========================================================
 # MATRICES
-# =========================================================
-
 cm_v1 = build_confusion(v1)
 cm_v2 = build_confusion(v2)
 cm_v3 = build_confusion(v3)
 
-# =========================================================
 # PLOT
-# =========================================================
-
 fig, axes = plt.subplots(
     1,
     3,
@@ -101,20 +85,14 @@ for ax, (title, cm) in zip(
     versions
 ):
 
-    # =====================================================
     # TITLES
-    # =====================================================
-
     ax.set_title(
         title,
         fontsize=14,
         fontweight="bold"
     )
 
-    # =====================================================
     # AXES
-    # =====================================================
-
     ax.set_xticks([0, 1])
     ax.set_yticks([0, 1])
 
@@ -140,19 +118,13 @@ for ax, (title, cm) in zip(
         fontweight="bold"
     )
 
-    # =====================================================
     # DRAW CELLS
-    # =====================================================
-
     for i in range(2):
         for j in range(2):
 
             value = cm[i, j]
 
-            # =============================================
             # LABELS
-            # =============================================
-
             if i == 0 and j == 0:
                 label = "TN"
 
@@ -165,10 +137,7 @@ for ax, (title, cm) in zip(
             else:
                 label = "TP"
 
-            # =============================================
             # COLORS
-            # =============================================
-
             if label in ["TP", "TN"]:
 
                 cell_color = "#0B1F3A"
@@ -204,10 +173,7 @@ for ax, (title, cm) in zip(
     ax.set_xlim(-0.5, 1.5)
     ax.set_ylim(1.5, -0.5)
 
-# =========================================================
 # SAVE
-# =========================================================
-
 plt.tight_layout()
 
 plt.savefig(
